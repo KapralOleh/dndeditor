@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "Decade";
+  src: url(Decade.ttf);
+}
+h1 {
+  color: rgb(199, 255, 102);
+  font-family: "Decade";
+  text-transform: uppercase;
+}
+p {
+  font-weight: bold;
+  color: white;
+}
+body {
+	background: #757575;
+	margin:0px;
+	padding:0px;
+	font-family: Helvetica, Arial, sans-serif;
+
+}
+.grid-stack-item-content p, .grid-stack-item-content img {
+	margin: 15px;
+}
+.grid-stack-item-content .fa {
+	font-size: 64px;
+	display: block;
+	margin: 20px 0 10px;
+}
+header a, header a:hover { color: #fff; }
+			
+.darklue { background: #2c3e50; color: #fff; }
+.darklue hr.star-light::after {
+	background-color: #2c3e50;.pane{
+	background: #2c3e50;
+	margin-bottom:20px;
+}
+.pane .wrapper{
+	padding-left: 15px;
+}
+.pane label{
+	color:#FFF;
+}
+.pane select{
+	width:100px;
+}
+.clicked .grid-stack-item-content{
+	background: #2c3e50;
+	color:#FFF;
+}
+.button-success {
+	background: rgb(28, 184, 65);
+	color: white;
+	border-radius: 4px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+.clicked{
+	z-index:10;
+}
+div.grid-stack-item-content {
+	background: #E74C3C;
+	box-shadow:inset 0 -5px 0px rgba(0,0,0,0.1),inset 5px 0px 0px rgba(0,0,0,0.1);
+	cursor: pointer;
+	font-size: 14px;
+}
+.ui-draggable-handle {
+	color: white;
+	font-weight: bold;
+}
+div {
+	overflow: hidden !important;
+}
+div img {
+	float: left;
+}
